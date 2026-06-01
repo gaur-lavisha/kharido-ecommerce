@@ -1,0 +1,35 @@
+# Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# STS / Spring Tools
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ (if someone clones later)
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper jar cache
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment files
+.env
+.env.*
+
+# Docker volumes if created locally
+postgres-data/
